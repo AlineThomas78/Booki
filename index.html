@@ -40,7 +40,7 @@
       <div class="infoGroup">
         <div class="headline">
           <h3 id="infoH3">
-            Trouvez votre Hébergements pour des vacances de rêve
+            Trouvez votre Hébergement pour des vacances de rêve
           </h3>
           <h6 id="infoH6">En plein centre-ville ou en pleine nature</h6>
         </div>
@@ -49,8 +49,15 @@
             <div id="searchI">
               <i class="fa-solid fa-location-dot" style="color: #000000"></i>
             </div>
-            <input type="search" id="searchInput" value="Marseille, France" />
-            <input type="button" id="SearchBtn" value="Rechercher" />
+            <div class="searchInput">
+              <input type="search" id="searchInput" value="Marseille, France" />
+            </div>
+            <div class="searchBtn">
+              <button type="button" id="SearchBtnSmall">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+              </button>
+              <button id="SearchBtnLarge">Rechercher</button>
+            </div>
           </form>
         </div>
         <div class="filterBar">
@@ -93,7 +100,7 @@
             <i class="fa-solid fa-info" style="color: #0063fc"></i>
           </div>
           <div id="infoP">
-            Plus de 500 logements sont disponibles dans cette ville
+           <p>Plus de 500 logements sont disponibles dans cette ville</p> 
           </div>
         </div>
       </div>
@@ -106,6 +113,7 @@
             </div>
             <div class="hebergement-card">
               <article class="card-hebergement">
+                <a href="#" class="liens">
                 <div class="img-hebergement">
                   <img
                     src="./images/hebergements/fred-kleber.jpg"
@@ -133,6 +141,7 @@
                     <span class="sr-only">Note de 4 sur 5</span>
                   </div>
                 </div>
+                </a>
               </article>
 
               <article class="card-hebergement">
@@ -303,6 +312,7 @@
             </div>
             <div class="populaires-cards">
               <article class="card">
+                <a href="#" class="liens"></a>
                 <div class="img-populaires">
                   <img
                     src="./images/hebergements/emile-guillemot.jpg"
@@ -328,6 +338,7 @@
                     <span class="sr-only">Note de 4 sur 5</span>
                   </div>
                 </div>
+                </a>
               </article>
               <article class="card">
                 <div class="img-populaires">
