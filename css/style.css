@@ -418,6 +418,19 @@ footer {
 }
 
 @media (max-width: 767px) {
+    .tag {
+        font-size: 15px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        padding-right: 5px;
+      }
+
+      .liens {
+        text-decoration: none;
+        width: 100%;
+    }
+
   .main-container {
     width: 100%;
     min-width: 320px;
@@ -894,6 +907,14 @@ footer {
 }
 
 @media (min-width: 1025px) {
+  .tag {
+    font-size: 16px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    padding-right: 5px;
+  }
+
   .main-container {
     width: 100%;
     max-width: 1440px;
@@ -1040,6 +1061,10 @@ footer {
     cursor: pointer;
     text-align: start;
     padding: 5px;
+  }
+
+  .filter:hover {
+    background-color: #deebff;
   }
 
   .infoBar {
@@ -1219,6 +1244,21 @@ footer {
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
+
+    .liens {
+        text-decoration: none;
+        color: black;
+        width: 30%;
+    }
+    
+    .tag {
+        font-size: 14px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        padding-right: 5px;
+      }
+
   .main-container {
     width: 100%;
     box-sizing: border-box;
@@ -1388,7 +1428,7 @@ footer {
   }
 
   .populaires-cards .card {
-    width: 30%;
+    width: 100%;
     height: 146px;
   }
 
@@ -1472,7 +1512,7 @@ footer {
     display: flex;
     align-items: center;
     margin-left: 15px;
-}
+  }
 
   footer {
     width: 100%;
