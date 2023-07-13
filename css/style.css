@@ -156,6 +156,22 @@ header {
   border-radius: 15px 0px 0px 15px;
 }
 
+#search_font{
+    color: #000000;
+}
+
+#search_glass {
+    color: #ffffff;
+}
+
+.filter_tag {
+    color: #0065fc;
+}
+
+#info_info {
+    color: #0065fc;
+}
+
 .filterBar {
   width: 758px;
   height: 50px;
@@ -328,6 +344,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50px;
 }
 
 .populaires-cards .card {
@@ -362,6 +379,10 @@ header {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+
+.card-rating{
+    font-size: 14px;
 }
 
 /******************** SECTION ACTIVITES   ****************/
@@ -908,7 +929,11 @@ footer {
 
 @media (min-width: 1025px) {
  
- 
+    h3.card-title {
+        font-size: 15px !important;
+    }
+
+
   .tag {
     font-size: 16px;
     font-family: "Raleway";
@@ -1108,7 +1133,7 @@ footer {
   }
 
   .populaires-cards .card {
-    width: 100%;
+    width: 95%;
     height: 146px;
   }
 
@@ -1151,6 +1176,7 @@ footer {
   .card-subtitle {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 13px !important;
   }
 
   .card-content-activite {
